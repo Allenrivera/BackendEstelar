@@ -15,7 +15,7 @@ public class CorsConfig {
 
         CorsConfiguration config = new CorsConfiguration();
         config.addAllowedOrigin("http://127.0.0.1:5501");
-        config.addAllowedOrigin("https://5460-181-53-96-108.ngrok-free.app");
+        config.addAllowedOrigin("https://bancoestelar-a7e3a1af570a.herokuapp.com");
         config.addAllowedOrigin("");
         config.addAllowedMethod("*");
         config.addAllowedHeader("*");
